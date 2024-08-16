@@ -96,11 +96,16 @@ class Config {
       this.list = 'data/list',
       this.message = 'message',
       this.validCode = '0',
-      this.errorTimeout = '网络请求超时',
-      this.errorConnection = '网络连接出错，请检查网络连接',
-      this.errorBadResponse = '服务器错误，请稍后重试',
-      this.errorCancel = '请求被取消了',
-      this.errorUnknown = '网络连接不稳定，请检查网络连接'});
+       //网络请求超时
+      this.errorTimeout = 'Network request timeout',
+        //网络连接出错，请检查网络连接
+      this.errorConnection = 'Network connection error, please check network connection',
+        //服务器错误，请稍后重试
+      this.errorBadResponse = 'Server error, please try again later',
+        //请求被取消了
+      this.errorCancel = 'Request canceled',
+        //网络连接不稳定，请检查网络连接
+      this.errorUnknown = 'Network connection is unstable, please check the network connection'});
 }
 
 /// A Result.
